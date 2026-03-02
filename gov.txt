@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-03-01 07:20:49
+;; Exported:   2026-03-02 07:28:33
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1772349305 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1772436001 3600 900 604800 300
 
 ;; A Records
 a.aspr.gov.	3600	IN	A	158.74.35.11 ; cf_tags=cf-proxied:false
@@ -22118,6 +22118,8 @@ jems-il.gov.	10800	IN	NS	ns14.digicertdns.net.
 jems-il.gov.	10800	IN	NS	ns15.digicertdns.net.
 jems-il.gov.	10800	IN	NS	ns10.digicertdns.com.
 jems-il.gov.	10800	IN	NS	ns11.digicertdns.com.
+jeneraoh.gov.	10800	IN	NS	amy.ns.cloudflare.com.
+jeneraoh.gov.	10800	IN	NS	bryce.ns.cloudflare.com.
 jenkinscountyga.gov.	10800	IN	NS	pdns04.domaincontrol.com.
 jenkinscountyga.gov.	10800	IN	NS	pdns03.domaincontrol.com.
 jenningscounty-in.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
@@ -27284,6 +27286,8 @@ mortonmspd.gov.	10800	IN	NS	ns11.dnsmadeeasy.com.
 mortonmspd.gov.	10800	IN	NS	ns14.dnsmadeeasy.com.
 mortonnd.gov.	10800	IN	NS	ns2.ndnic.com.
 mortonnd.gov.	10800	IN	NS	ns3.ndnic.com.
+moscowidahoruralfire.gov.	10800	IN	NS	ns2.fsr.com.
+moscowidahoruralfire.gov.	10800	IN	NS	ns.fsr.com.
 moselwi.gov.	10800	IN	NS	ns4-04.azure-dns.info.
 moselwi.gov.	10800	IN	NS	ns1-04.azure-dns.com.
 moselwi.gov.	10800	IN	NS	ns3-04.azure-dns.org.
