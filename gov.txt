@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-04-26 07:40:25
+;; Exported:   2026-04-27 07:53:49
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1777188905 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1777276082 3600 900 604800 300
 
 ;; A Records
 a1.rockrivertownship.gov.	3600	IN	A	199.34.228.75 ; cf_tags=cf-proxied:false
@@ -5068,7 +5068,6 @@ apprenticeship.gov.	10800	IN	NS	a24-67.akam.net.
 apprenticeship.gov.	10800	IN	NS	a6-65.akam.net.
 apprenticeshipidaho.gov.	10800	IN	NS	soa2.idaho.gov.
 apprenticeshipidaho.gov.	10800	IN	NS	soa1.idaho.gov.
-apprenticeshipidaho.gov.	10800	IN	NS	adm-dns3.idaho.gov.
 apprenticeships.gov.	10800	IN	NS	a7-66.akam.net.
 apprenticeships.gov.	10800	IN	NS	a10-66.akam.net.
 apprenticeships.gov.	10800	IN	NS	a1-165.akam.net.
@@ -6905,7 +6904,6 @@ benzoniatownship.gov.	10800	IN	NS	ns44.domaincontrol.com.
 benzoniatownship.gov.	10800	IN	NS	ns43.domaincontrol.com.
 beoutsideidaho.gov.	10800	IN	NS	soa2.idaho.gov.
 beoutsideidaho.gov.	10800	IN	NS	soa1.idaho.gov.
-beoutsideidaho.gov.	10800	IN	NS	adm-dns3.idaho.gov.
 bep.gov.	10800	IN	NS	tadeo.ns.cloudflare.com.
 bep.gov.	10800	IN	NS	margot.ns.cloudflare.com.
 bep.gov.	10800	IN	NS	ns1.bep.gov.
@@ -21229,7 +21227,6 @@ idaho.gov.	10800	IN	NS	soa2.idaho.gov.
 idaho.gov.	10800	IN	NS	soa1.idaho.gov.
 idahoprepares.gov.	10800	IN	NS	soa1.idaho.gov.
 idahoprepares.gov.	10800	IN	NS	soa2.idaho.gov.
-idahoprepares.gov.	10800	IN	NS	adm-dns3.idaho.gov.
 idahovotes.gov.	10800	IN	NS	betty.ns.cloudflare.com.
 idahovotes.gov.	10800	IN	NS	chad.ns.cloudflare.com.
 idahoworks.gov.	10800	IN	NS	soa2.idaho.gov.
@@ -43564,7 +43561,6 @@ visitconwaysc.gov.	10800	IN	NS	pdns2.registrar-servers.com.
 visitconwaysc.gov.	10800	IN	NS	pdns1.registrar-servers.com.
 visitidaho.gov.	10800	IN	NS	soa1.idaho.gov.
 visitidaho.gov.	10800	IN	NS	soa2.idaho.gov.
-visitidaho.gov.	10800	IN	NS	adm-dns3.idaho.gov.
 visitindiana.gov.	10800	IN	NS	darwin.ns.cloudflare.com.
 visitindiana.gov.	10800	IN	NS	addilyn.ns.cloudflare.com.
 visitnebraska.gov.	10800	IN	NS	dan.ns.cloudflare.com.
