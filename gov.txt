@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     gov.
-;; Exported:   2026-04-30 08:00:36
+;; Exported:   2026-05-01 07:51:05
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,10 +24,12 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1777535762 3600 900 604800 300
+gov.	3600	IN	SOA	a.ns.gov. dns.cloudflare.com. 1777621505 3600 900 604800 300
 
 ;; A Records
+a1.domainops.gov.	3600	IN	A	162.159.10.90 ; cf_tags=cf-proxied:false
 a1.rockrivertownship.gov.	3600	IN	A	199.34.228.75 ; cf_tags=cf-proxied:false
+a2.domainops.gov.	3600	IN	A	162.159.11.245 ; cf_tags=cf-proxied:false
 a2.rockrivertownship.gov.	3600	IN	A	199.34.228.75 ; cf_tags=cf-proxied:false
 acs-ns1-aws.akcourts.gov.	3600	IN	A	205.251.198.140 ; cf_tags=cf-proxied:false
 acs-ns2-aws.akcourts.gov.	3600	IN	A	205.251.193.103 ; cf_tags=cf-proxied:false
@@ -214,14 +216,11 @@ ns0.gdcnynj.gov.	3600	IN	A	208.94.148.159 ; cf_tags=cf-proxied:false
 ns0.llnl.gov.	3600	IN	A	192.12.17.1 ; cf_tags=cf-proxied:false
 ns0.rocklandcountyny.gov.	3600	IN	A	208.94.148.159 ; cf_tags=cf-proxied:false
 ns0.sammamishwa.gov.	3600	IN	A	208.94.148.4 ; cf_tags=cf-proxied:false
-ns10.domainops.gov.	3600	IN	A	162.159.10.177 ; cf_tags=cf-proxied:false
 ns10.hnlalert.gov.	3600	IN	A	206.195.187.15 ; cf_tags=cf-proxied:false
 ns10.honolulu.gov.	3600	IN	A	206.195.187.15 ; cf_tags=cf-proxied:false
-ns11.domainops.gov.	3600	IN	A	198.41.223.236 ; cf_tags=cf-proxied:false
 ns11.fairfaxcounty.gov.	3600	IN	A	166.94.11.19 ; cf_tags=cf-proxied:false
 ns11.fairfaxcountyva.gov.	3600	IN	A	166.94.11.19 ; cf_tags=cf-proxied:false
 ns11.fairfaxcountyvirginia.gov.	3600	IN	A	166.94.11.19 ; cf_tags=cf-proxied:false
-ns12.domainops.gov.	3600	IN	A	162.159.11.96 ; cf_tags=cf-proxied:false
 ns13.fairfaxcounty.gov.	3600	IN	A	166.94.11.17 ; cf_tags=cf-proxied:false
 ns13.fairfaxcountyva.gov.	3600	IN	A	166.94.11.17 ; cf_tags=cf-proxied:false
 ns13.fairfaxcountyvirginia.gov.	3600	IN	A	166.94.11.17 ; cf_tags=cf-proxied:false
@@ -249,6 +248,7 @@ ns1.bondpro.gov.	3600	IN	A	162.159.0.233 ; cf_tags=cf-proxied:false
 ns1.bpa.gov.	3600	IN	A	170.160.36.10 ; cf_tags=cf-proxied:false
 ns1.brentwoodca.gov.	3600	IN	A	209.77.217.2 ; cf_tags=cf-proxied:false
 ns1.burlingtonvt.gov.	3600	IN	A	204.13.40.11 ; cf_tags=cf-proxied:false
+ns1.cambriacountypa.gov.	3600	IN	A	173.246.238.4 ; cf_tags=cf-proxied:false
 ns1.canadiceny.gov.	3600	IN	A	198.179.108.150 ; cf_tags=cf-proxied:false
 ns1.cannoncountytn.gov.	3600	IN	A	67.227.251.75 ; cf_tags=cf-proxied:false
 ns1.ca.sandia.gov.	3600	IN	A	198.206.219.121 ; cf_tags=cf-proxied:false
@@ -279,7 +279,6 @@ ns1.cooscountyor.gov.	3600	IN	A	67.219.235.7 ; cf_tags=cf-proxied:false
 ns1.cumberlandcoil.gov.	3600	IN	A	72.167.133.220 ; cf_tags=cf-proxied:false
 ns1.dahlonega.gov.	3600	IN	A	69.16.218.106 ; cf_tags=cf-proxied:false
 ns1.dc3on.gov.	3600	IN	A	66.102.236.215 ; cf_tags=cf-proxied:false
-ns1.domainops.gov.	3600	IN	A	198.41.223.194 ; cf_tags=cf-proxied:false
 ns1.dublin-ca.gov.	3600	IN	A	12.138.195.226 ; cf_tags=cf-proxied:false
 ns1.dublinca.gov.	3600	IN	A	12.138.195.226 ; cf_tags=cf-proxied:false
 ns1.durantok.gov.	3600	IN	A	24.112.3.221 ; cf_tags=cf-proxied:false
@@ -506,6 +505,7 @@ ns2.bnl.gov.	3600	IN	A	130.199.4.6 ; cf_tags=cf-proxied:false
 ns2.bondpro.gov.	3600	IN	A	162.159.1.245 ; cf_tags=cf-proxied:false
 ns2.bpa.gov.	3600	IN	A	170.160.100.10 ; cf_tags=cf-proxied:false
 ns2.burlingtonvt.gov.	3600	IN	A	204.13.40.12 ; cf_tags=cf-proxied:false
+ns2.cambriacountypa.gov.	3600	IN	A	173.246.238.4 ; cf_tags=cf-proxied:false
 ns2.canadiceny.gov.	3600	IN	A	24.213.157.114 ; cf_tags=cf-proxied:false
 ns2.cannoncountytn.gov.	3600	IN	A	67.227.251.75 ; cf_tags=cf-proxied:false
 ns2.ca.sandia.gov.	3600	IN	A	198.206.219.122 ; cf_tags=cf-proxied:false
@@ -540,7 +540,6 @@ ns2.cumberlandcoil.gov.	3600	IN	A	72.167.133.220 ; cf_tags=cf-proxied:false
 ns2.dahlonega.gov.	3600	IN	A	69.16.218.106 ; cf_tags=cf-proxied:false
 ns2.dc3on.gov.	3600	IN	A	66.102.236.216 ; cf_tags=cf-proxied:false
 ns2.digitaltowpathny.gov.	3600	IN	A	170.158.227.251 ; cf_tags=cf-proxied:false
-ns2.domainops.gov.	3600	IN	A	162.159.8.73 ; cf_tags=cf-proxied:false
 ns2.dublin-ca.gov.	3600	IN	A	50.237.67.210 ; cf_tags=cf-proxied:false
 ns2.dublinca.gov.	3600	IN	A	50.237.67.210 ; cf_tags=cf-proxied:false
 ns2.durantok.gov.	3600	IN	A	24.112.3.222 ; cf_tags=cf-proxied:false
@@ -754,7 +753,6 @@ ns3.cityofwhitefish.gov.	3600	IN	A	205.251.196.220 ; cf_tags=cf-proxied:false
 ns3.cityofwhittier.gov.	3600	IN	A	47.179.6.226 ; cf_tags=cf-proxied:false
 ns3.clintoncountyny.gov.	3600	IN	A	66.152.108.195 ; cf_tags=cf-proxied:false
 ns3.digitaltowpathny.gov.	3600	IN	A	172.104.219.127 ; cf_tags=cf-proxied:false
-ns3.domainops.gov.	3600	IN	A	173.245.59.34 ; cf_tags=cf-proxied:false
 ns3.eseclab.gov.	3600	IN	A	63.234.40.71 ; cf_tags=cf-proxied:false
 ns3.fortbendisd.gov.	3600	IN	A	13.65.112.229 ; cf_tags=cf-proxied:false
 ns3.fremont.gov.	3600	IN	A	64.62.214.18 ; cf_tags=cf-proxied:false
@@ -807,7 +805,6 @@ ns4.bellcountytexas911.gov.	3600	IN	A	95.141.37.127 ; cf_tags=cf-proxied:false
 ns4.cityofgeronimo.gov.	3600	IN	A	216.239.38.108 ; cf_tags=cf-proxied:false
 ns4.cityofwhitefish.gov.	3600	IN	A	205.251.198.228 ; cf_tags=cf-proxied:false
 ns4d.fl.gov.	3600	IN	A	204.90.18.15 ; cf_tags=cf-proxied:false
-ns4.domainops.gov.	3600	IN	A	162.159.9.74 ; cf_tags=cf-proxied:false
 ns4.durhamcountync.gov.	3600	IN	A	168.215.112.166 ; cf_tags=cf-proxied:false
 ns4.gpodev.gov.	3600	IN	A	162.140.254.200 ; cf_tags=cf-proxied:false
 ns4.groton-ct.gov.	3600	IN	A	64.251.55.49 ; cf_tags=cf-proxied:false
@@ -834,7 +831,6 @@ ns5.bellcountytexas911.gov.	3600	IN	A	54.36.109.15 ; cf_tags=cf-proxied:false
 ns5.cap.gov.	3600	IN	A	108.166.170.104 ; cf_tags=cf-proxied:false
 ns5.cityofpigeonforgetn.gov.	3600	IN	A	96.33.117.140 ; cf_tags=cf-proxied:false
 ns5d.fl.gov.	3600	IN	A	204.90.18.16 ; cf_tags=cf-proxied:false
-ns5.domainops.gov.	3600	IN	A	198.41.222.44 ; cf_tags=cf-proxied:false
 ns5.durhamcountync.gov.	3600	IN	A	24.199.169.126 ; cf_tags=cf-proxied:false
 ns5.hallcountyne.gov.	3600	IN	A	208.80.127.4 ; cf_tags=cf-proxied:false
 ns5.hanford.gov.	3600	IN	A	198.232.211.65 ; cf_tags=cf-proxied:false
@@ -846,7 +842,6 @@ ns5.sammamishwa.gov.	3600	IN	A	208.94.149.4 ; cf_tags=cf-proxied:false
 ns5.spokane.gov.	3600	IN	A	208.80.127.223 ; cf_tags=cf-proxied:false
 ns6.cap.gov.	3600	IN	A	108.166.170.105 ; cf_tags=cf-proxied:false
 ns6.cityofpigeonforgetn.gov.	3600	IN	A	96.33.117.139 ; cf_tags=cf-proxied:false
-ns6.domainops.gov.	3600	IN	A	198.41.222.144 ; cf_tags=cf-proxied:false
 ns6.hallcountyne.gov.	3600	IN	A	208.94.149.4 ; cf_tags=cf-proxied:false
 ns6.hanford.gov.	3600	IN	A	198.232.211.66 ; cf_tags=cf-proxied:false
 ns6.max.gov.	3600	IN	A	198.137.240.113 ; cf_tags=cf-proxied:false
@@ -854,19 +849,16 @@ ns6.ohio.gov.	3600	IN	A	18.218.221.7 ; cf_tags=cf-proxied:false
 ns6.pr.gov.	3600	IN	A	52.168.173.67 ; cf_tags=cf-proxied:false
 ns6.spokane.gov.	3600	IN	A	208.94.149.223 ; cf_tags=cf-proxied:false
 ns7.cap.gov.	3600	IN	A	198.255.114.190 ; cf_tags=cf-proxied:false
-ns7.domainops.gov.	3600	IN	A	198.41.223.132 ; cf_tags=cf-proxied:false
 ns7.fauquiercounty.gov.	3600	IN	A	142.202.232.43 ; cf_tags=cf-proxied:false
 ns7.ohio.gov.	3600	IN	A	54.184.106.71 ; cf_tags=cf-proxied:false
 ns7.onondaga.gov.	3600	IN	A	151.181.81.2 ; cf_tags=cf-proxied:false
 ns7.pr.gov.	3600	IN	A	13.88.181.87 ; cf_tags=cf-proxied:false
 ns7.tva.gov.	3600	IN	A	162.159.0.254 ; cf_tags=cf-proxied:false
-ns8.domainops.gov.	3600	IN	A	162.159.11.152 ; cf_tags=cf-proxied:false
 ns8.fauquiercounty.gov.	3600	IN	A	142.202.232.44 ; cf_tags=cf-proxied:false
 ns8.ohio.gov.	3600	IN	A	54.201.215.146 ; cf_tags=cf-proxied:false
 ns8.pr.gov.	3600	IN	A	52.230.229.182 ; cf_tags=cf-proxied:false
 ns8.sandia.gov.	3600	IN	A	132.175.7.209 ; cf_tags=cf-proxied:false
 ns8.tva.gov.	3600	IN	A	162.159.1.243 ; cf_tags=cf-proxied:false
-ns9.domainops.gov.	3600	IN	A	198.41.223.149 ; cf_tags=cf-proxied:false
 ns9.sandia.gov.	3600	IN	A	132.175.7.210 ; cf_tags=cf-proxied:false
 nsadc2.wa.gov.	3600	IN	A	20.99.132.78 ; cf_tags=cf-proxied:false
 nsadc2.wa.gov.	3600	IN	A	147.55.244.150 ; cf_tags=cf-proxied:false
@@ -937,12 +929,15 @@ www.juabsheriff.gov.	3600	IN	A	199.34.228.71 ; cf_tags=cf-proxied:false
 www.miltonpolicein.gov.	3600	IN	A	13.248.243.5 ; cf_tags=cf-proxied:false
 www.ns2.juabsheriff.gov.	3600	IN	A	199.34.228.71 ; cf_tags=cf-proxied:false
 www.rileytwpmi.gov.	3600	IN	A	184.72.229.176 ; cf_tags=cf-proxied:false
+www.townofcottonmn.gov.	3600	IN	A	199.34.228.75 ; cf_tags=cf-proxied:false
 xdns1.uscourts.cavc.gov.	3600	IN	A	63.147.68.53 ; cf_tags=cf-proxied:false
 xdns2.uscourts.cavc.gov.	3600	IN	A	69.7.98.212 ; cf_tags=cf-proxied:false
 xdns.pppl.gov.	3600	IN	A	192.188.106.232 ; cf_tags=cf-proxied:false
 yamuna.sba.gov.	3600	IN	A	40.90.245.130 ; cf_tags=cf-proxied:false
 
 ;; AAAA Records
+a1.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:a5a ; cf_tags=cf-proxied:false
+a2.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:bf5 ; cf_tags=cf-proxied:false
 acs-ns1-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5306:8c00::1 ; cf_tags=cf-proxied:false
 acs-ns2-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5301:6700::1 ; cf_tags=cf-proxied:false
 acs-ns3-aws.akcourts.gov.	3600	IN	AAAA	2600:9000:5303:9400::1 ; cf_tags=cf-proxied:false
@@ -981,9 +976,6 @@ ns01.treasury.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:f
 ns-02.noaa.gov.	3600	IN	AAAA	2610:20:9300:0:137:75:112:7 ; cf_tags=cf-proxied:false
 ns02.treasury.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:false
 ns-03.noaa.gov.	3600	IN	AAAA	2610:20:9300:1:137:75:112:58 ; cf_tags=cf-proxied:false
-ns10.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:ab1 ; cf_tags=cf-proxied:false
-ns11.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::c629:dfec ; cf_tags=cf-proxied:false
-ns12.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:b60 ; cf_tags=cf-proxied:false
 ns1.ama.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
 ns1.ayudaconmibanco.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
 ns1.bankanswers.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
@@ -1000,7 +992,6 @@ ns1.cfius.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
 ns1.cjis.gov.	3600	IN	AAAA	2607:f330:2002:403::201 ; cf_tags=cf-proxied:false
 ns1.complaintreferralexpress.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
 ns1.comptrollerofthecurrency.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
-ns1.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::c629:dfc2 ; cf_tags=cf-proxied:false
 ns1.eaglecash.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:e9 ; cf_tags=cf-proxied:false
 ns1e.census.gov.	3600	IN	AAAA	2610:20:2000:101::16:0 ; cf_tags=cf-proxied:false
 ns1.eseclab.gov.	3600	IN	AAAA	2001:428:2403:cc00:63:234:40:73 ; cf_tags=cf-proxied:false
@@ -1091,7 +1082,6 @@ ns2.cfius.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:fals
 ns2.cjis.gov.	3600	IN	AAAA	2607:f330:2003:403::201 ; cf_tags=cf-proxied:false
 ns2.complaintreferralexpress.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:false
 ns2.comptrollerofthecurrency.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:false
-ns2.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:849 ; cf_tags=cf-proxied:false
 ns2.eaglecash.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:false
 ns2e.census.gov.	3600	IN	AAAA	2610:20:2010:a04::16:0 ; cf_tags=cf-proxied:false
 ns2.eseclab.gov.	3600	IN	AAAA	2001:428:2403:cc00:63:234:40:76 ; cf_tags=cf-proxied:false
@@ -1168,7 +1158,6 @@ ns2.wizard.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:fal
 ns2.workplace.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f5 ; cf_tags=cf-proxied:false
 ns2x.va.gov.	3600	IN	AAAA	2600:8010:0:5::151 ; cf_tags=cf-proxied:false
 ns3.bnl.gov.	3600	IN	AAAA	2620:10a:0:3::40 ; cf_tags=cf-proxied:false
-ns3.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::adf5:3b22 ; cf_tags=cf-proxied:false
 ns3.eseclab.gov.	3600	IN	AAAA	2001:428:2403:cc00:63:234:40:71 ; cf_tags=cf-proxied:false
 ns3.hud.gov.	3600	IN	AAAA	2620:0:c92::167:45 ; cf_tags=cf-proxied:false
 ns3.max.gov.	3600	IN	AAAA	2620:10f:b001:206::113 ; cf_tags=cf-proxied:false
@@ -1179,24 +1168,18 @@ ns3.nrd.gov.	3600	IN	AAAA	2600:1f12:cf5:601:6ffb:8ad6:57c5:3b9c ; cf_tags=cf-pro
 ns3.nsf.gov.	3600	IN	AAAA	2620:10f:6025:1::20 ; cf_tags=cf-proxied:false
 ns3.usap.gov.	3600	IN	AAAA	2620:11d:3001:1104::399 ; cf_tags=cf-proxied:false
 ns3x.va.gov.	3600	IN	AAAA	2600:8020:0:5::151 ; cf_tags=cf-proxied:false
-ns4.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:94a ; cf_tags=cf-proxied:false
 ns4.hud.gov.	3600	IN	AAAA	2620:0:c92::167:91 ; cf_tags=cf-proxied:false
 ns4.max.gov.	3600	IN	AAAA	2620:10f:b000:406::177 ; cf_tags=cf-proxied:false
 ns4.nj.gov.	3600	IN	AAAA	2600:9000:5302:5300::1 ; cf_tags=cf-proxied:false
 ns4x.va.gov.	3600	IN	AAAA	2600:8030:0:5::151 ; cf_tags=cf-proxied:false
-ns5.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::c629:de2c ; cf_tags=cf-proxied:false
 ns5.hanford.gov.	3600	IN	AAAA	2604:2180:109:2100::65 ; cf_tags=cf-proxied:false
 ns5.max.gov.	3600	IN	AAAA	2620:10f:b001:6::49 ; cf_tags=cf-proxied:false
 ns5.shastacoeducation.gov.	3600	IN	AAAA	2602:fd01:fc0::2 ; cf_tags=cf-proxied:false
-ns6.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::c629:de90 ; cf_tags=cf-proxied:false
 ns6.hanford.gov.	3600	IN	AAAA	2604:2180:109:2100::66 ; cf_tags=cf-proxied:false
 ns6.max.gov.	3600	IN	AAAA	2620:10f:b000:206::113 ; cf_tags=cf-proxied:false
-ns7.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::c629:df84 ; cf_tags=cf-proxied:false
 ns7.tva.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:fe ; cf_tags=cf-proxied:false
-ns8.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:b98 ; cf_tags=cf-proxied:false
 ns8.sandia.gov.	3600	IN	AAAA	2620:106:6008:7:f0::209 ; cf_tags=cf-proxied:false
 ns8.tva.gov.	3600	IN	AAAA	2400:cb00:2049:1::a29f:1f3 ; cf_tags=cf-proxied:false
-ns9.domainops.gov.	3600	IN	AAAA	2400:cb00:2049:1::c629:df95 ; cf_tags=cf-proxied:false
 ns9.sandia.gov.	3600	IN	AAAA	2620:106:6008:7:f0::210 ; cf_tags=cf-proxied:false
 ns.nih.gov.	3600	IN	AAAA	2607:f220:404:101::80e7:80fb ; cf_tags=cf-proxied:false
 phaeton.nrel.gov.	3600	IN	AAAA	2620:d0:8000:3::21 ; cf_tags=cf-proxied:false
@@ -1529,10 +1512,9 @@ cecc.gov.	3600	IN	DS	48215 8 2 4DF4CE7A4AA796C53617F750BE83FA282860DF4270D7F5B7E
 cecc.gov.	3600	IN	DS	50719 8 2 23F00D319571A7D10D69DE2D91E14C7CF8B1D6EF2E247A2413787A6ADCBDE035
 cendi.gov.	3600	IN	DS	11921 13 1 FC2F35BAFC6D806CFB7E87B21387A6035B902D9C
 cendi.gov.	3600	IN	DS	11921 13 2 FA0CB5E039610C2EBCBBD293530378979899E9B12BFC3773A7A3433FCCCF513A
-census.gov.	3600	IN	DS	63460 7 2 EDBED9D0F2D04BCCD6BEB6310EB7327469A27C024E24778AC63422F69316BFC5
+census.gov.	3600	IN	DS	62690 8 2 404E7366FE8EABA7342A781B3184B29A75320F55AE02266873B9B4832285EA00
 census.gov.	3600	IN	DS	54670 8 2 0DB62E8DAD5F492ADF050D2B36BA29CA1DAAD9C49CACF4E12C293F939B151C3C
 census.gov.	3600	IN	DS	38584 8 2 AECF1415107033BFF6C71A71B814538F553E9FE8EDB6E4CB3E0A9D8EA83E8F91
-census.gov.	3600	IN	DS	9606 7 2 F78AC01E59776FE73BD15B7DE474CAC666146A45CA41B19BC47C37695EE2E8B9
 certnaca.gov.	3600	IN	DS	43577 13 2 8E4C55C38ED476B3CBCB1B0C2132E40A239D1A031DC738DC7A64A8BD7A95D5A4
 cfa.gov.	3600	IN	DS	6380 8 2 AD88D76F501B3BC977CAB5F26CAD6888C52F6EB8BB04F8ADB1CF0FAB94CB3005
 cfa.gov.	3600	IN	DS	51727 8 2 93847AF409C9FA572F847D98479515665D72DF8A4B7A7E5112DD62B3DF80ADD9
@@ -1575,8 +1557,8 @@ chicagoelections.gov.	3600	IN	DS	2371 13 1 F74ECD04FAB7C7B07351F4D9201484AF45C68
 chicagoelections.gov.	3600	IN	DS	2371 13 2 40B6C2B29C9C2E5E60FE101DDE9C3F653DB4E26A9C2AB251AA77B9649A4571D8
 chicotcountyar.gov.	3600	IN	DS	2371 13 2 C3AD3C30B8D56EA6F49ECC66B33C1637D3B77A3A9F4BF599335D607A5D65D858
 childcare.gov.	3600	IN	DS	34129 13 2 B14D68999861E292A86A65217C33C26FEC70E1F857E5720D0CE83F85787E0898
+childreninadversity.gov.	3600	IN	DS	5600 8 2 4C130ED2D98C7C03CF3A7D947EC8013E4F635E174111F5559FBE3384658A927E
 childreninadversity.gov.	3600	IN	DS	48256 8 2 38DF5398F4A6C580AA0CF83B8B13E66159DC7F3B9EDA3F367971376AABB7FC81
-childreninadversity.gov.	3600	IN	DS	31465 8 2 2AE3600E9D229A6C4D67E7141A4FA6BE441ED5176EDD0BD02DC444E0B839C875
 childstats.gov.	3600	IN	DS	49548 13 2 C2707E1C3FAE342D4D20F4CD3B7EAEE3E7A42C6B7572372B140471E3A5E7FBA1
 childwelfare.gov.	3600	IN	DS	34151 13 2 8DA8DA85DA693DA4F04BC7016EA826A9548E91CF9EC4B6725CC9B7217C9D8A67
 chips.gov.	3600	IN	DS	2371 13 2 AEFB50DD25EBECF7876E2F84D5043B054222A1582A6BA684588C9244AF92372A
@@ -2664,9 +2646,8 @@ lrsa-nj.gov.	3600	IN	DS	28774 8 2 A0F53E30C96F6E7D071276632CB9726486FD5B5AC5636F
 lsbpdks.gov.	3600	IN	DS	2371 13 2 CBC636393D84B47E54CCF51E9E6131D2352DB2C2F3B81F83C40410D7D2F07865
 lsc.gov.	3600	IN	DS	36939 13 2 306826AF917305284BC6E5ED08793EB3E62681382762FA32B92E5D816A83D3E2
 ltcfeds.gov.	3600	IN	DS	50530 8 2 2E414EB3C3528760F4C14DE9017D0809F17B086171E5D6BD8BFA3E1C5686E9CB
+luca-appeals.gov.	3600	IN	DS	4186 8 2 654DEC6BB38556678A16959C4FE7B06ADC8522D09F1DDF0DB097CA6F9F5ED466
 luca-appeals.gov.	3600	IN	DS	31211 8 2 11174A7B834013B02A72C8F1456EDE08132DA4E769F6AEE20D057256CD9AB813
-luca-appeals.gov.	3600	IN	DS	55735 7 2 996E2F0153D57A9AF25504E66BD9A3B25CA17D79F40E7A013904674579992CED
-luca-appeals.gov.	3600	IN	DS	13134 7 2 30BDBE8740FF80D19226EB14A1C83A3C23D54B5F9485437FE3CA9E47ED9E9844
 luca-appeals.gov.	3600	IN	DS	29134 8 2 3543A7933551EC15745DFFB794FE319BD02135C90AD626B4864A91D0A5824179
 lucascountycoronerohio.gov.	3600	IN	DS	2371 13 2 AD330237E4774664655823F57DF8D497DDFF8CFA67E527C3BD19211C397A1478
 lyonswisd2.gov.	3600	IN	DS	2371 13 2 E0BFD1DAB87837008177404CF05CDC6237398F8E6AC0F3B5939601C92FCE8209
@@ -2778,6 +2759,7 @@ mn.gov.	3600	IN	DS	10559 8 2 4E374D3E2202ABC0F96C7EF7CDAF23845DF3F3F20510805E2C1
 mn.gov.	3600	IN	DS	59062 8 1 5581D5225CF4A0AADF221A898E33A88EE72A5A47
 mn.gov.	3600	IN	DS	59062 8 2 68ED717E67984A0B94F9805A026145B9BBCB1F3750FFE35B10087FEFDB5A5CD8
 mobilecounty911.gov.	3600	IN	DS	22475 13 2 334687F35302D77D9FEEF0EF395D15356ECEB87387E3D000EDA57B0C009F4DB5
+moms.gov.	3600	IN	DS	48715 13 2 18861695F92F7055954146767615E03CF5821B67D1195EE512CFE1873DE78623
 moneyfactory.gov.	3600	IN	DS	2371 13 2 F65B64323B2B3896EEF3BE5330063700FAA6BCC4A43252F8F28FD340227DADAE
 moneyfactorystore.gov.	3600	IN	DS	2371 13 2 0D1EB4A1407791AF707A510D4627C5F0519D7209089B120D0A419532D1C9951D
 montanawi.gov.	3600	IN	DS	54906 13 1 54D309CA0D1262B291D8F83B4C0F556E9E6C8551
@@ -2875,8 +2857,8 @@ nds.gov.	3600	IN	DS	2371 13 2 8641C202BB487554BA7A9ACD7B9BE6CD6E165ED24F2CD6F24C
 ndstudio.gov.	3600	IN	DS	2371 13 2 B0DF2467EE0063F86F59A04FF703FD7201650F4AD0CF4AC26CD390CF8F2AFA2A
 nea.gov.	3600	IN	DS	33438 7 2 794A62C2E92E5BB4CFBA148AA41EA4279CDBE5F10FF95ADE9843D159C157DD41
 nea.gov.	3600	IN	DS	35019 7 2 11F8CBCEED76034F7D13DCB1DE00EF246C0A0283271D73C40DD0CB688586D0D9
+neglecteddiseases.gov.	3600	IN	DS	51044 8 2 4D1CFCD64997EC350209AF04B3A29846BDE321CFB6DAA9AE584180DBBDC65023
 neglecteddiseases.gov.	3600	IN	DS	4186 8 2 323FB5ACAEB169A542FF2DDDE67B4CD4C303CE3F2F12481A093999A6EAB5C499
-neglecteddiseases.gov.	3600	IN	DS	17329 8 2 2082405CA82D4A547EEF9BAE35CFAEDC9638F44EE45F9683D330A78EF7C85EB2
 neh.gov.	3600	IN	DS	65091 7 2 7F1CF81C824DC8030C9201663205CBB59841156FCD08E517D7695090E21F451C
 neh.gov.	3600	IN	DS	60048 7 2 1395C4A11001E8267B91386CE0457B595BFBE4D5DEE4765D373613921DC0EE9A
 nehrp.gov.	3600	IN	DS	2371 13 2 38C872A1F3FF3A76B4DDCF4DA3DB806F4F3EED6F1FC0E1B0E53573EEB3C82B21
@@ -3832,7 +3814,6 @@ vernoniafire.gov.	3600	IN	DS	1600 8 2 7BC73B9F87325F94687B69E39DFAC73F5B33052109
 veterans.gov.	3600	IN	DS	31313 13 2 3D6667AD84D099EF1CD3F89DE8E6565BC8E9B4A281D7164872D31F4F0CB3048E
 vets.gov.	3600	IN	DS	7540 8 2 FA74525F780534C05B9275F4123589E965755E9416E3C34D8BD9E1A65C26791A
 victoriatx.gov.	3600	IN	DS	39326 8 2 53BD93F358F3CA31ADDDCF800B9403F11AD81C9DBAAF7C5705F0E48CB1DDB568
-villageofaurorany.gov.	3600	IN	DS	56184 13 2 71FCB526EA7E2DB9E206EF083CF591D0409365E6A3A20CF77B008BF79DC63212
 villageofchesterny.gov.	3600	IN	DS	2371 13 2 99807AEA75830E539D4A95046723255E7F421A132ADBC2B8C7EC1AFF998E7E75
 villageofnassau.gov.	3600	IN	DS	21296 14 2 882AF7E390253BA2717B430FD3E5868CCE55E24E1F716DE9A018A08FC3267A2D
 villageofnewholland-oh.gov.	3600	IN	DS	16022 8 2 0E9797503DD6E7D94769B3EC542B83ECBDCB58540E8771898C9B33A33D26CBCD
@@ -4008,6 +3989,8 @@ youthrules.gov.	3600	IN	DS	13855 8 2 46EEB2E30CFBF4EBD2FA672F3041A2492B568138067
 400yaahc.gov.	10800	IN	NS	dns2.gsa.gov.
 400yaahc.gov.	10800	IN	NS	dns5.gsa.gov.
 400yaahc.gov.	10800	IN	NS	dns4.gsa.gov.
+4thdistrictappealsoh.gov.	10800	IN	NS	ns49.domaincontrol.com.
+4thdistrictappealsoh.gov.	10800	IN	NS	ns50.domaincontrol.com.
 4thjdcar.gov.	10800	IN	NS	ns2.mostwantedwebsites.net.
 4thjdcar.gov.	10800	IN	NS	ns1.mostwantedwebsites.net.
 511wi.gov.	10800	IN	NS	ns-561.awsdns-06.net.
@@ -5477,6 +5460,8 @@ athenstx.gov.	10800	IN	NS	dns4.civicplus.com.
 athensvillageny.gov.	10800	IN	NS	ns2.digitalocean.com.
 athensvillageny.gov.	10800	IN	NS	ns1.digitalocean.com.
 athensvillageny.gov.	10800	IN	NS	ns3.digitalocean.com.
+athensvillagepdny.gov.	10800	IN	NS	sarah.ns.cloudflare.com.
+athensvillagepdny.gov.	10800	IN	NS	braden.ns.cloudflare.com.
 athensvt.gov.	10800	IN	NS	pdns07.domaincontrol.com.
 athensvt.gov.	10800	IN	NS	pdns08.domaincontrol.com.
 athertonca.gov.	10800	IN	NS	ns54.domaincontrol.com.
@@ -6362,6 +6347,8 @@ barrycountye911.gov.	10800	IN	NS	ns2-32.azure-dns.net.
 barrycountye911.gov.	10800	IN	NS	ns3-32.azure-dns.org.
 barrycountymo.gov.	10800	IN	NS	ns10.wixdns.net.
 barrycountymo.gov.	10800	IN	NS	ns11.wixdns.net.
+barrytownshipmi.gov.	10800	IN	NS	ed.ns.cloudflare.com.
+barrytownshipmi.gov.	10800	IN	NS	harlee.ns.cloudflare.com.
 barrytownshipmn.gov.	10800	IN	NS	ns43.domaincontrol.com.
 barrytownshipmn.gov.	10800	IN	NS	ns44.domaincontrol.com.
 barstowca.gov.	10800	IN	NS	elaine.ns.cloudflare.com.
@@ -6881,6 +6868,10 @@ bentcounty.gov.	10800	IN	NS	ns3.bdm.microsoftonline.com.
 bentcounty.gov.	10800	IN	NS	ns4.bdm.microsoftonline.com.
 bentleyks.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 bentleyks.gov.	10800	IN	NS	george.ns.cloudflare.com.
+bentonar.gov.	10800	IN	NS	ns-658.awsdns-18.net.
+bentonar.gov.	10800	IN	NS	ns-294.awsdns-36.com.
+bentonar.gov.	10800	IN	NS	ns-1341.awsdns-39.org.
+bentonar.gov.	10800	IN	NS	ns-1738.awsdns-25.co.uk.
 bentonchartertownship-mi.gov.	10800	IN	NS	freedns2.registrar-servers.com.
 bentonchartertownship-mi.gov.	10800	IN	NS	freedns1.registrar-servers.com.
 bentoncountyar.gov.	10800	IN	NS	aida.ns.cloudflare.com.
@@ -8668,6 +8659,8 @@ calvertcountymd.gov.	10800	IN	NS	ns102.digicertdns.com.
 calvertcountymd.gov.	10800	IN	NS	ns101.digicertdns.com.
 calverttx.gov.	10800	IN	NS	kallie.ns.cloudflare.com.
 calverttx.gov.	10800	IN	NS	pranab.ns.cloudflare.com.
+cambriacountypa.gov.	10800	IN	NS	ns2.cambriacountypa.gov.
+cambriacountypa.gov.	10800	IN	NS	ns1.cambriacountypa.gov.
 cambriacountypa.gov.	10800	IN	NS	ns1.co.cambria.pa.us.
 cambriacountypa.gov.	10800	IN	NS	ns2.co.cambria.pa.us.
 cambridgema.gov.	10800	IN	NS	ns4.level3.net.
@@ -9467,6 +9460,10 @@ centerwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 centerwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 centralboxelderfireutah.gov.	10800	IN	NS	ns1.netfirms.com.
 centralboxelderfireutah.gov.	10800	IN	NS	ns2.netfirms.com.
+centralcityar.gov.	10800	IN	NS	ns3-05.azure-dns.org.
+centralcityar.gov.	10800	IN	NS	ns4-05.azure-dns.info.
+centralcityar.gov.	10800	IN	NS	ns1-05.azure-dns.com.
+centralcityar.gov.	10800	IN	NS	ns2-05.azure-dns.net.
 centralcityia.gov.	10800	IN	NS	ns1.avenet.net.
 centralcityia.gov.	10800	IN	NS	ns2.avenet.net.
 centralcoastblueca.gov.	10800	IN	NS	ns10.digicertdns.com.
@@ -14420,8 +14417,6 @@ dnfsb.gov.	10800	IN	NS	a3-66.akam.net.
 dnfsb.gov.	10800	IN	NS	a11-65.akam.net.
 dnfsb.gov.	10800	IN	NS	a18-67.akam.net.
 dnfsb.gov.	10800	IN	NS	a1-36.akam.net.
-dnfsb.gov.	10800	IN	NS	auth100.ns.uu.net.
-dnfsb.gov.	10800	IN	NS	auth110.ns.uu.net.
 dni.gov.	10800	IN	NS	a13-65.akam.net.
 dni.gov.	10800	IN	NS	a12-65.akam.net.
 dni.gov.	10800	IN	NS	a3-64.akam.net.
@@ -14497,18 +14492,8 @@ dolorescountyco.gov.	10800	IN	NS	ns53.cloudns.net.
 dolorescountyco.gov.	10800	IN	NS	ns54.cloudns.net.
 dolorescountyco.gov.	10800	IN	NS	ns51.cloudns.net.
 dolorescountyco.gov.	10800	IN	NS	ns52.cloudns.net.
-domainops.gov.	10800	IN	NS	ns6.domainops.gov.
-domainops.gov.	10800	IN	NS	ns5.domainops.gov.
-domainops.gov.	10800	IN	NS	ns4.domainops.gov.
-domainops.gov.	10800	IN	NS	ns10.domainops.gov.
-domainops.gov.	10800	IN	NS	ns11.domainops.gov.
-domainops.gov.	10800	IN	NS	ns12.domainops.gov.
-domainops.gov.	10800	IN	NS	ns8.domainops.gov.
-domainops.gov.	10800	IN	NS	ns9.domainops.gov.
-domainops.gov.	10800	IN	NS	ns7.domainops.gov.
-domainops.gov.	10800	IN	NS	ns3.domainops.gov.
-domainops.gov.	10800	IN	NS	ns2.domainops.gov.
-domainops.gov.	10800	IN	NS	ns1.domainops.gov.
+domainops.gov.	10800	IN	NS	a1.domainops.gov.
+domainops.gov.	10800	IN	NS	a2.domainops.gov.
 donaana.gov.	10800	IN	NS	boyd.ns.cloudflare.com.
 donaana.gov.	10800	IN	NS	june.ns.cloudflare.com.
 donaciondeorganos.gov.	10800	IN	NS	ns1-04.azure-dns.com.
@@ -23178,6 +23163,8 @@ knoxvilletn.gov.	10800	IN	NS	b8.uberns.com.
 knoxvilletn.gov.	10800	IN	NS	a8.uberns.com.
 knoxvilletnpolice.gov.	10800	IN	NS	a8.uberns.com.
 knoxvilletnpolice.gov.	10800	IN	NS	b8.uberns.com.
+kochville.gov.	10800	IN	NS	otto.ns.cloudflare.com.
+kochville.gov.	10800	IN	NS	kinsley.ns.cloudflare.com.
 kodiak.gov.	10800	IN	NS	arturo.ns.cloudflare.com.
 kodiak.gov.	10800	IN	NS	sydney.ns.cloudflare.com.
 kohlervillagewi.gov.	10800	IN	NS	gina.ns.cloudflare.com.
@@ -25690,6 +25677,8 @@ manwv.gov.	10800	IN	NS	rick.ns.cloudflare.com.
 manwv.gov.	10800	IN	NS	lady.ns.cloudflare.com.
 manzanita-nsn.gov.	10800	IN	NS	ns66.domaincontrol.com.
 manzanita-nsn.gov.	10800	IN	NS	ns65.domaincontrol.com.
+maoig.gov.	10800	IN	NS	jerry.ns.cloudflare.com.
+maoig.gov.	10800	IN	NS	bailey.ns.cloudflare.com.
 maplegrovemn.gov.	10800	IN	NS	ns3.state.mn.us.
 maplegrovemn.gov.	10800	IN	NS	ns2.state.mn.us.
 maplegrovemn.gov.	10800	IN	NS	ns1.state.mn.us.
@@ -26180,6 +26169,9 @@ mattapoisettpolice.gov.	10800	IN	NS	ns31.domaincontrol.com.
 mattapoisettpolice.gov.	10800	IN	NS	ns32.domaincontrol.com.
 mattaponi.gov.	10800	IN	NS	ns1.garzahosting.net.
 mattaponi.gov.	10800	IN	NS	ns2.garzahosting.net.
+matthewsnc.gov.	10800	IN	NS	hdp.domainkey.u17073568.wl069.sendgrid.net.
+matthewsnc.gov.	10800	IN	NS	hdp2.domainkey.u17073568.wl069.sendgrid.net.
+matthewsnc.gov.	10800	IN	NS	u17073568.wl069.sendgrid.net.
 matthewsnc.gov.	10800	IN	NS	lara.ns.cloudflare.com.
 matthewsnc.gov.	10800	IN	NS	george.ns.cloudflare.com.
 mattituckparks.gov.	10800	IN	NS	ns0.wixdns.net.
@@ -27320,6 +27312,12 @@ mokanemo.gov.	10800	IN	NS	ns4-35.azure-dns.info.
 mokanemo.gov.	10800	IN	NS	ns3-35.azure-dns.org.
 mokena.gov.	10800	IN	NS	darwin.ns.cloudflare.com.
 mokena.gov.	10800	IN	NS	desiree.ns.cloudflare.com.
+moms.gov.	10800	IN	NS	a3-67.akam.net.
+moms.gov.	10800	IN	NS	a11-67.akam.net.
+moms.gov.	10800	IN	NS	a20-65.akam.net.
+moms.gov.	10800	IN	NS	a8-64.akam.net.
+moms.gov.	10800	IN	NS	a1-168.akam.net.
+moms.gov.	10800	IN	NS	a24-65.akam.net.
 monacannation.gov.	10800	IN	NS	b8.uberns.com.
 monacannation.gov.	10800	IN	NS	a8.uberns.com.
 monautah.gov.	10800	IN	NS	jamie.ns.cloudflare.com.
@@ -28206,8 +28204,10 @@ myfloridatreasurehunt.gov.	10800	IN	NS	ns03.fldfs.com.
 myfloridatreasurehunt.gov.	10800	IN	NS	ns02.fldfs.com.
 myhawaii.gov.	10800	IN	NS	vin.ns.cloudflare.com.
 myhawaii.gov.	10800	IN	NS	sandy.ns.cloudflare.com.
-myilsavings.gov.	10800	IN	NS	ns1-01.azuregov-dns.us.
-myilsavings.gov.	10800	IN	NS	ns2-01.azuregov-dns.us.
+myilsavings.gov.	10800	IN	NS	ns1-37.azuregov-dns.us.
+myilsavings.gov.	10800	IN	NS	ns2-37.azuregov-dns.us.
+myilsavings.gov.	10800	IN	NS	ns3-37.azuregov-dns.us.
+myilsavings.gov.	10800	IN	NS	ns4-37.azuregov-dns.us.
 myindiana.gov.	10800	IN	NS	darwin.ns.cloudflare.com.
 myindiana.gov.	10800	IN	NS	addilyn.ns.cloudflare.com.
 myin.gov.	10800	IN	NS	darwin.ns.cloudflare.com.
@@ -32328,8 +32328,8 @@ pic.gov.	10800	IN	NS	dns5.gsa.gov.
 pic.gov.	10800	IN	NS	dns3.gsa.gov.
 pickawaycountyohio.gov.	10800	IN	NS	ns50.domaincontrol.com.
 pickawaycountyohio.gov.	10800	IN	NS	ns49.domaincontrol.com.
-pickawaycountypublichealth.gov.	10800	IN	NS	ns49.domaincontrol.com.
-pickawaycountypublichealth.gov.	10800	IN	NS	ns50.domaincontrol.com.
+pickawaycountypublichealth.gov.	10800	IN	NS	ns67.domaincontrol.com.
+pickawaycountypublichealth.gov.	10800	IN	NS	ns68.domaincontrol.com.
 pickawaysheriff.gov.	10800	IN	NS	ns13.domaincontrol.com.
 pickawaysheriff.gov.	10800	IN	NS	ns14.domaincontrol.com.
 pickenscountyga.gov.	10800	IN	NS	dns4.civicplus.com.
@@ -36935,8 +36935,8 @@ sleepyeyemn.gov.	10800	IN	NS	ns05.domaincontrol.com.
 sleepyeyemn.gov.	10800	IN	NS	ns06.domaincontrol.com.
 sleepyhollowny.gov.	10800	IN	NS	dns4.civicplus.com.
 sleepyhollowny.gov.	10800	IN	NS	dns3.civicplus.com.
-slfpae.gov.	10800	IN	NS	jay.ns.cloudflare.com.
 slfpae.gov.	10800	IN	NS	veda.ns.cloudflare.com.
+slfpae.gov.	10800	IN	NS	jay.ns.cloudflare.com.
 slgs.gov.	10800	IN	NS	ns1.slgs.gov.
 slgs.gov.	10800	IN	NS	ns2.slgs.gov.
 slipperyrockboroughpa.gov.	10800	IN	NS	ns-950.awsdns-54.net.
@@ -37303,6 +37303,8 @@ southeuclid.gov.	10800	IN	NS	bjorn.ns.cloudflare.com.
 southeuclid.gov.	10800	IN	NS	nadia.ns.cloudflare.com.
 southeuclidpolice.gov.	10800	IN	NS	bjorn.ns.cloudflare.com.
 southeuclidpolice.gov.	10800	IN	NS	nadia.ns.cloudflare.com.
+southfallsburgfiredistrict.gov.	10800	IN	NS	ns13.domaincontrol.com.
+southfallsburgfiredistrict.gov.	10800	IN	NS	ns14.domaincontrol.com.
 southfieldtownshipmi.gov.	10800	IN	NS	ns2.shumakergrouphosting.com.
 southfieldtownshipmi.gov.	10800	IN	NS	ns1.shumakergrouphosting.com.
 southfloralpark.gov.	10800	IN	NS	ns1.siteground.net.
@@ -37989,8 +37991,10 @@ stjosephcountymi.gov.	10800	IN	NS	sara.ns.cloudflare.com.
 stjosephcountymi.gov.	10800	IN	NS	bowen.ns.cloudflare.com.
 stjosephmo.gov.	10800	IN	NS	ns28.domaincontrol.com.
 stjosephmo.gov.	10800	IN	NS	ns27.domaincontrol.com.
-stlandry.gov.	10800	IN	NS	ns09.domaincontrol.com.
-stlandry.gov.	10800	IN	NS	ns10.domaincontrol.com.
+stlandry.gov.	10800	IN	NS	ns-247.awsdns-30.com.
+stlandry.gov.	10800	IN	NS	ns-844.awsdns-41.net.
+stlandry.gov.	10800	IN	NS	ns-1359.awsdns-41.org.
+stlandry.gov.	10800	IN	NS	ns-1897.awsdns-45.co.uk.
 stlawco.gov.	10800	IN	NS	zeus.ns.cloudflare.com.
 stlawco.gov.	10800	IN	NS	eleanor.ns.cloudflare.com.
 stlawcosheriff.gov.	10800	IN	NS	ns14.wixdns.net.
@@ -39299,6 +39303,8 @@ timberlinessdut.gov.	10800	IN	NS	ns-497.awsdns-62.com.
 time.gov.	10800	IN	NS	blue.foundationdns.com.
 time.gov.	10800	IN	NS	blue.foundationdns.net.
 time.gov.	10800	IN	NS	blue.foundationdns.org.
+timpssd.gov.	10800	IN	NS	ns54.worldnic.com.
+timpssd.gov.	10800	IN	NS	ns53.worldnic.com.
 tinmouthvt.gov.	10800	IN	NS	iris.ns.cloudflare.com.
 tinmouthvt.gov.	10800	IN	NS	lakas.ns.cloudflare.com.
 tiogacountyny.gov.	10800	IN	NS	ns1.fullcontrol.net.
@@ -39964,6 +39970,8 @@ townofcorningny.gov.	10800	IN	NS	ns1.wordpress.com.
 townofcorningny.gov.	10800	IN	NS	ns2.wordpress.com.
 townofcortlandtny.gov.	10800	IN	NS	hadlee.ns.cloudflare.com.
 townofcortlandtny.gov.	10800	IN	NS	johnathan.ns.cloudflare.com.
+townofcottonmn.gov.	10800	IN	NS	www.cottontownship.net.
+townofcottonmn.gov.	10800	IN	NS	www.townofcottonmn.gov.
 townofcovertny.gov.	10800	IN	NS	ns1.a2hosting.com.
 townofcovertny.gov.	10800	IN	NS	ns2.a2hosting.com.
 townofcovertny.gov.	10800	IN	NS	ns3.a2hosting.com.
@@ -40323,8 +40331,8 @@ townofhaverstraw.gov.	10800	IN	NS	ns1.lunarpages.com.
 townofhaverstraw.gov.	10800	IN	NS	ns2.lunarpages.com.
 townofhaverstraw.gov.	10800	IN	NS	ns3.hostpapa.com.
 townofhaverstraw.gov.	10800	IN	NS	ns4.hostpapa.com.
-townofhaydenaz.gov.	10800	IN	NS	cloudwebx-dns1.newtekdns.com.
-townofhaydenaz.gov.	10800	IN	NS	cloudwebx-dns2.newtekdns.com.
+townofhaydenaz.gov.	10800	IN	NS	nucum.ns.cloudflare.com.
+townofhaydenaz.gov.	10800	IN	NS	quincy.ns.cloudflare.com.
 townofhaywardwi.gov.	10800	IN	NS	adam.ns.cloudflare.com.
 townofhaywardwi.gov.	10800	IN	NS	mona.ns.cloudflare.com.
 townofhazelhurst.gov.	10800	IN	NS	ns2.iqsvr.com.
@@ -44412,10 +44420,10 @@ wataugatx.gov.	10800	IN	NS	pdns14.domaincontrol.com.
 wataugatx.gov.	10800	IN	NS	pdns13.domaincontrol.com.
 watchungnj.gov.	10800	IN	NS	carter.ns.cloudflare.com.
 watchungnj.gov.	10800	IN	NS	kenia.ns.cloudflare.com.
-waterboromaine.gov.	10800	IN	NS	ns100.accountservergroup.com.
-waterboromaine.gov.	10800	IN	NS	ns101.accountservergroup.com.
-waterboro-me.gov.	10800	IN	NS	ns100.accountservergroup.com.
-waterboro-me.gov.	10800	IN	NS	ns101.accountservergroup.com.
+waterboromaine.gov.	10800	IN	NS	ns1.inmotionhosting.com.
+waterboromaine.gov.	10800	IN	NS	ns2.inmotionhosting.com.
+waterboro-me.gov.	10800	IN	NS	ns1.inmotionhosting.com.
+waterboro-me.gov.	10800	IN	NS	ns2.inmotionhosting.com.
 waterburyct.gov.	10800	IN	NS	ns1.cen.ct.gov.
 waterburyct.gov.	10800	IN	NS	ns2.cen.ct.gov.
 waterfordct.gov.	10800	IN	NS	ns1.cen.ct.gov.
@@ -45939,8 +45947,8 @@ wvgopay.gov.	10800	IN	NS	ns1-07.azure-dns.com.
 wvgopay.gov.	10800	IN	NS	ns2-07.azure-dns.net.
 wvgopay.gov.	10800	IN	NS	ns3-07.azure-dns.org.
 wvgopay.gov.	10800	IN	NS	ns4-07.azure-dns.info.
-wv.gov.	10800	IN	NS	dns3.state.wv.us.
 wv.gov.	10800	IN	NS	dns.state.wv.us.
+wv.gov.	10800	IN	NS	dns3.state.wv.us.
 wvhouse.gov.	10800	IN	NS	nameserv.wvnet.edu.
 wvhouse.gov.	10800	IN	NS	names.wvnet.edu.
 wvinsurance.gov.	10800	IN	NS	ns-1218.awsdns-24.org.
